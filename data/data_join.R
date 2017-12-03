@@ -8,7 +8,7 @@ library(rgdal)
 
 # read data 
 bible_minded_cities <- read.csv("us_bible_minded_cities.csv")
-dms <- shapefile("dma_2008/DMAs.shp")
+dma <- shapefile("2008_nielsen_dmas/DMAs.shp")
 
 # merge on common variable, here called 'key'
-dms_join <- merge(x=bible_minded_cities, y=dms, by.x = 'market', by.y = 'NAME,C,30')
+dma_join <- merge(x=bible_minded_cities, y=dma, by.x = 'market', by.y = 'NAME,C,30')

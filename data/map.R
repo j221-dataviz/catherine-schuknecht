@@ -11,7 +11,7 @@ library(leaflet)
 
 # read data 
 billboards <- read.csv("billboards_all.csv")
-dma <- readOGR("dma_2008","DMAs")
+dma <- readOGR("2008_nielsen_dmas","DMAs")
 roads <- readOGR("2017_us_primaryroads","tl_2017_us_primaryroads")
 
 # load the dma data into a leaflet map
