@@ -1,0 +1,3 @@
+load("/Users/Cat/Documents/UCBSOJ/Fall classes/Data Viz/GitHub/cat-schuknecht/Gospel Billboards Data/billboards_urls.RData")
+load("/Users/Cat/Documents/UCBSOJ/Fall classes/cat-schuknecht/Gospel Billboards Data/urban_billboards_population.RData")
+load("/Users/Cat/Documents/UCBSOJ/Fall classes/cat-schuknecht/data/geodata.RData")
