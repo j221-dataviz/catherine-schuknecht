@@ -14,11 +14,10 @@ sums_less_map <- treemap(sums_less,
                          type="index",
                          vColor= "message_audience",
                          palette = c("#f46d43","#abd9e9","#939393"),
-                         title = "Messaging breakdown in the less bible-minded market areas", 
+                         title = "Messaging breakdown in the less bible-minded market areas (Total: 106)",
                          border.col="white",
                          fontsize.labels= 13,
                          fontcolor.labels = "white",
                          bg.labels="transparent",
                          fontfamily.title = "Georgia",
-                         fontfamily.labels = "Georgia"
-)
+                         fontfamily.labels = "Georgia")

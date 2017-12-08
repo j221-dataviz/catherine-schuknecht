@@ -19,12 +19,12 @@ top_15_data$message_audience <- factor(top_15_data$message_audience, levels = c(
 
 # Plot the basic frame of the stacked bar chart.
 top_15_chart <- ggplot(data = top_15_data, aes(x = market_name, y = count_total, fill = message_audience)) +
-  geom_bar(stat = "identity", alpha = 0.7) + 
+  geom_bar(stat = "identity", alpha = 0.8) + 
   coord_flip()
 
 #add styling
 top_15_chart +
-  scale_fill_manual(name= "Billboard Target Audience",values=c("#d73027","#4575b4", "#97959c")) +
+  scale_fill_manual(name= "Billboard Target Audience",values=c("#f46d43", "#abd9e9", "#939393")) +
   theme_minimal(base_size = 12, base_family = "Georgia") +
   xlab(" ") +
   ylab("Number of Billboards") +
